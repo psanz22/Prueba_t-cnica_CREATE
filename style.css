@@ -119,18 +119,28 @@ body {
     padding: 0 20px;
   }
   .main {
-    display:flex;
-    height: 100%;
-}
-/* .main__wrapper--section {
-    width: 60vw;
-
-} */
-
-  .main__aside {
     display: flex;
-    width: 100vw;
-    background-color: green;
-    
+    height: 100%;
+  }
+  .main__wrapper--sections {
+    width: 100%;
   }
 
+  .main__aside {
+    width: 30%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .main__aside--div,
+  .main__aside--div {
+    background-color: orange;
+    width: 80%;
+    height: 20%;
+  }
+}
