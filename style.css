@@ -41,7 +41,8 @@
   gap: 10px;
   margin-bottom: 10px;
 }
-.main__section2 {
+.main__section2,
+.main__section3 {
   margin: 15px 0 10px 0;
 }
 .main__section2--text {
@@ -52,4 +53,12 @@
   text-align: left;
   scrollbar-width: thin;
   padding-left: 20px;
+}
+.main__section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main__section3--text {
+  margin-right: 5px;
 }
