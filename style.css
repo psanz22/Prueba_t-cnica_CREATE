@@ -28,10 +28,11 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 15px;
+  align-items: stretch;
 }
 .header__link {
   color: white;
-  padding: 16px;
+  padding: 15px;
 }
 .header__link:hover {
   background-color: red;
@@ -98,4 +99,8 @@ body {
   justify-content: space-around;
   padding: 10px;
   width: 150px;
+}
+.footer__rrss--link:hover,
+.footer__nav--link:hover {
+  color: gold;
 }
