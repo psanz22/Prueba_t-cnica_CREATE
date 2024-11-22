@@ -62,3 +62,31 @@
 .main__section3--text {
   margin-right: 5px;
 }
+
+/* footer */
+
+.footer {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.footer__nav {
+  background-color: rgb(179, 52, 52);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 400px;
+}
+.footer__nav--link,
+.footer__rrss--link {
+  color: white;
+}
+.footer__rrss {
+  background-color: rgb(126, 59, 12);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 150px;
+}
