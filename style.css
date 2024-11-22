@@ -1,3 +1,10 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
 /* header */
 
 .header {
@@ -34,6 +41,7 @@
 
 .main {
   margin: 30px;
+  flex: 1;
 }
 .main__section1 {
   display: flex;
@@ -71,13 +79,14 @@
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  margin-top: auto;
 }
 .footer__nav {
   background-color: rgb(179, 52, 52);
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  width: 400px;
+  width: 300px;
 }
 .footer__nav--link,
 .footer__rrss--link {
