@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  width: 300px;
+  width: 250px;
 }
 .footer__nav--link,
 .footer__rrss--link {
@@ -142,5 +142,15 @@ body {
     background-color: orange;
     width: 80%;
     height: 20%;
+  }
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__nav {
+    margin-left: 40px;
+  }
+  .footer__rrss {
+    margin-right: 40px;
   }
 }
