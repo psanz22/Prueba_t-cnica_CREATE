@@ -11,6 +11,9 @@
   padding: 20px;
   gap: 10px;
 }
+.header__title {
+  font-weight: normal;
+}
 .header__nav {
   background-color: rgb(179, 52, 52);
   display: flex;
