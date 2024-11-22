@@ -1,1 +1,0 @@
-# Prueba_t-cnica_CREATE
