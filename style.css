@@ -117,6 +117,7 @@ body {
 @media (min-width: 768px) {
   body {
     font-size: 16px;
+    background-color: rgb(240, 236, 236);
   }
   .header {
     flex-direction: row;
@@ -126,6 +127,8 @@ body {
   .main {
     display: flex;
     height: 100%;
+    margin-left: 50px;
+    background-color: white;
   }
   .main__wrapper--sections {
     width: 100%;
