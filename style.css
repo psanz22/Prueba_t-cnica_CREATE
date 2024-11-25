@@ -28,6 +28,8 @@ body {
   background-color: rgb(179, 52, 52);
   display: flex;
   justify-content: space-around;
+  margin-right: 20px;
+  width: 400px;
 }
 .header__link {
   color: white;
@@ -35,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100px;
   height: 100%;
 }
 .header__link:hover {
@@ -150,7 +152,7 @@ body {
   .main__aside--div {
     background-color: orange;
     width: 80%;
-    height: 20%;
+    height: 13%;
   }
   .footer {
     flex-direction: row;
