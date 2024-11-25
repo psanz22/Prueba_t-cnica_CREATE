@@ -124,12 +124,11 @@ body {
     align-items: center;
     padding: 0 20px;
   }
-  .header__nav {
-    margin-right: 20px;
-    width: 400px;
-  }
+
   .header__link {
     width: 100px;
+    padding: 10px;
+    width: 90px;
   }
   .main {
     display: flex;
@@ -173,5 +172,9 @@ body {
 @media (min-width: 1024px) {
   body {
     font-size: 18px;
+  }
+  .header__nav {
+    margin-right: 20px;
+    width: 400px;
   }
 }
